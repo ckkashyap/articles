@@ -1,4 +1,4 @@
-Best programming language!
+# Best programming language!
 
 Many may discount the idea of "best programming language" with "all
 languages have positives and negetives and that no one language could
@@ -17,9 +17,9 @@ discussion because they make me bitter). I consider myself as a power
 vim user - I switched to Emacs about 4 years ago after being bitten by
 the functional bug.
 
-Non criteria
+## Non criteria
 
-1. Static vs Dynamic typing
+### Static vs Dynamic typing
 
 One argument that supports Static typing is that it helps in proving
 correctness. The argument against it is that one can only prove that
@@ -28,7 +28,9 @@ intention point of view is questionable. Second, it is argued that
 static types help with refactoring. Again, to the extent of types
 aligning. Remember
 
+```Haskell
 sum = foldr (-) 0
+```
 
 is correct Haskell code - as in it compiles.
 
@@ -50,13 +52,13 @@ of which do one thing. This, will help writing "evident code" that is
 typesystem of the language per se does not help or come in the way of
 design.
 
-2. IDE support
+### IDE support
 
 I'm just saying that I am not considering that as a parameter for
 language comparison. If you think that's a grave ommision, you should
 stop reading this article here.
 
-3. Indentation level as block structure
+### Indentation level as block structure
 
 I can totally get it if you hate the idea. I myself did not like it
 one bit. It was only after I studied Haskell that I learnt to bear it
@@ -65,12 +67,14 @@ and later love it.
 So I feel - "Don't judge a language by it's choice for block
 structure"!
 
-4. Software Transaction memory, CSP style channels
+### Software Transaction memory, CSP style channels
 
 Clojure has demonstrated that these things can be built as a library
 when your language powerful enough.
 
-Criteria number 1a - Higher order function / Function as first class value
+## Criteria
+
+### - Higher order function / Function as first class value
 
 Lambda calculus is "Turing Complete" and it contains nothing more than
 function definition and function application. There are plenty of
@@ -91,7 +95,7 @@ Almost all modern languages (new versions of old languages) support
 hugher order functions in some form or other.
 
 
-Criteria number 1b - Macro support
+### Macro support
 
 If the word macro evokes "C macro" / "conditional compilation" in your
 mind, your probably also believe macros are bad. On the other hand,
@@ -105,7 +109,7 @@ macro" (access to AST at compile time) support is inferiour.
 
 Languages (that I know of) that support macros are - Lisp/Scheme, Clojure, Nim,
 
-Criteria number 2 - Strict (Applicative order) evaluation
+### Strict (Applicative order) evaluation
 
 According to "Why Functional Programming Matters" - Lazy evaluation is
 one of the two key features that is necessary for a language to
@@ -125,7 +129,7 @@ The only "mainstream" language that has lazy evaluation by default and
 unreasonable (as in hard to reason about) IO is Haskell.
 
 
-Criteria number 3 - Reach
+### Reach
 
 These days I almost always have to deal with Mac, Linux and Windows
 and switch between them. On top of that I play with Raspberry-pi. So
@@ -184,12 +188,6 @@ inferior to the oned that give you direct access to memory and either
 dont have garbage collection or use a non-tracing garbage collection.
 
 C, Rust and Nim are the good languages in this category.
-
-
-
-
-
-
 
 
 [0] Simon Peyton Jones talks
