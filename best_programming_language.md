@@ -7,7 +7,7 @@ various programming languages and attempt to figure out which one is
 better in most criteria. I will attempt to do so in this article.
 
 And to those who may say that "languages dont matter; only algorithms
-do" - I'll just say COBOL is (was?) a programming language.
+do" - may I remind you - COBOL is (was?) a programming language.
 
 Just so you know where I am coming from - I am very familiar with C (I
 have used it to implement x86 kernels) and Perl (I've read and love
@@ -74,7 +74,7 @@ when your language powerful enough.
 
 ## Criteria
 
-### - Higher order function / Function as first class value
+### Higher order function / Function as first class value
 
 Lambda calculus is "Turing Complete" and it contains nothing more than
 function definition and function application. There are plenty of
@@ -121,7 +121,6 @@ functions. Two points to keep in mind here
 
   2. Laziness mixed with IO is unpleasant (to put it very mildly)
 
-
 So I conclude that a language that has Laziness by default and a
 tedious way to do/reason about IO is undesirable.
 
@@ -140,7 +139,7 @@ A language that limits my reach is inferior to the one that does not.
 
 Only C and Nim are the good languages in this category.
 
-Criteria number 4 - Ability to target machine code
+### Ability to target machine code
 
 It is a good idea to program an abstract machine, instead of a real
 machine. However, not at the cost of never being able to program a
@@ -175,7 +174,7 @@ one that does.
 Haskell, C, OCaml, Rust, Go and Nim are the good languages in this
 category.
 
-Criteria number 5 - Memory management / Garbage collection
+### Memory management / Garbage collection
 
 Garbage colleciton are of two kinds[5] - tracing and non-tracing. The
 tracing variety is the most common and it involves keeping track of
@@ -189,9 +188,14 @@ dont have garbage collection or use a non-tracing garbage collection.
 
 C, Rust and Nim are the good languages in this category.
 
+## Summary
 
-[0] Simon Peyton Jones talks
-[1] http://matt.might.net/articles/implementing-laziness
-[2] http://www.cs.kent.ac.uk/people/staff/dat/miranda /whyfp90.pdf
-[4] http://www.paulgraham.com/avg.html
-[5] http://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29
+Based on the criteria that I came up with, Nim is a clear winner :)
+
+
+#### References
+* [0] Simon Peyton Jones talks
+* [1] http://matt.might.net/articles/implementing-laziness
+* [2] http://www.cs.kent.ac.uk/people/staff/dat/miranda /whyfp90.pdf
+* [4] http://www.paulgraham.com/avg.html
+* [5] http://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29
